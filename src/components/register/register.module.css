@@ -1,0 +1,86 @@
+.form_container {
+    width: max-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_container fieldset {
+    border: 2px solid black;
+    padding: 15px 50px;
+    border-radius: 10px;
+}
+
+.form_container label {
+    display: block;
+    margin-top: 5px;
+}
+
+.form_container input {
+    width: 200px;
+    border: 2px solid lightgray;
+}
+
+.form_container button {
+    margin: 0 auto;
+    display: block;
+    background-color: #44c2e5;
+    border: 0;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.radio_group_row {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.radio_group_row input {
+    width: auto;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.radio_group_row input,
+label {
+    cursor: pointer;
+}
+
+.form_container legend {
+    color: #44c2e5;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.form_container p {
+    margin: 5px 0px;
+    color: #c40404;
+}
+
+.radio_group_row label {
+    width: 100px;
+}
+
+
+.form_back_link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.form_back_link a {
+    text-decoration: none;
+    color: #221f1f;
+}
+
+.form_back_link a:hover {
+    color: #c40404;
+}

@@ -1,0 +1,41 @@
+.view_main_cont {
+    padding: 30px;
+}
+
+.view_person_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.view_main_cont h2 {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.view_person_container {
+    padding: 25px;
+    background-color: #a18aff;
+    border-radius: 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.view_person_container div {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.view_person_element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.no_registered {
+    font-size: 20px;
+    color: crimson;
+}
