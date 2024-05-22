@@ -1,4 +1,4 @@
-# Events App
+# task App
 
 This repository contains the code for the Events App.
 
