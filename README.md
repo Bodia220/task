@@ -1,6 +1,6 @@
 # task App
 
-This repository contains the code for the Events App.
+This repository contains the code for the task App.
 
 ## How to Run
 
