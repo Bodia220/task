@@ -10,7 +10,7 @@ This repository contains the code for the task App.
     ```
     Enter the server folder:
     ```bash
-    cd taskServer
+    cd serverTask
     ```
     Install the dependencies:
     ```bash
